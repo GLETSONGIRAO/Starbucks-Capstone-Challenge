@@ -46,14 +46,18 @@ Here is the schema and explanation of each variable in the files:
 * value - (dict of strings) - either an offer id or transaction amount depending on the record
 
   
-## Problem Statement / Metrics 
+## Problem Statement 
 
-Problem: Classification problem where we want to know if a offer will be completed by a user based on user characteristics.
+We want to use the data to identify which groups of people are most responsive to each type of offer, and how best to present each type of offer.
 
-Goal: predict if a offer will be completed by a customer.
- 
-Metric: As it is a classification problem we will use a Accuracy to measure how well a model correctly predicts whether an offer is successful.
+For this we set a classification problem where we want to identify if a uffer will be sucessfull based on user characteristics
 
+Classification problem where we out goal is to predict if a offer will be completed by a user based on user characteristics.
+
+
+## Metrics 
+
+As it is a classification problem we will use a Accuracy to measure how well a model correctly predicts whether an offer is successful.
 	
 ## Python Libraries Used
 -[Python Data Analysis Library](https://pandas.pydata.org/)  
